@@ -5,7 +5,8 @@ class LanguagePack::Helpers::Nodebin
     version = "12.16.2"
     {
       "number" => version,
-      "url"    => "https://s3.amazonaws.com/heroku-nodebin/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
+      # "url"    => "https://s3.amazonaws.com/heroku-nodebin/node/release/linux-x64/node-v#{version}-linux-x64.tar.gz"
+      "url" => "https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v#{version}/node-v#{version}-linux-x64.tar.gz"
     }
   end
 
